@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单验证</title>
+    <link href="css/new_file.css" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript" src="js/aaa.js"></script>
+</head>
+<body>
+<form method="post" action="">
+    <div class="mo"><h3>用户名称：</h3>
+        <input type="text" id="user" placeholder="长度6-10，英文大小写字母"></div>
+		<br/><br/>
+    <span id="useralart"></span>
+    <div class="mo"><h3>密码：</h3>
+        <input type="password" placeholder="长度6-20，大小写字母，数字或下划线" id="password"></div>
+		<br><br>
+    <span id="passwordalart"></span>
+    <div class="mo"><h3>电子邮箱：</h3>
+        <input type="text" placeholder="用户名@域名" id="email"></div><br><br>
+    <span id="emailalart"></span>
+    <div class="mo"><h3>手机号码：</h3>
+        <input type="text" placeholder="13,15,17,18,19开头的11位手机号" id="phoneNumber"></div>
+		<br><br>
+    <span id="phoneNumberalart"></span>
+    <input type="submit" value="注册" id="submit">
+</form>
+</body>
+</html>
